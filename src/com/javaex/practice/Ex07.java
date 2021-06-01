@@ -22,9 +22,9 @@ public class Ex07 {
 		
 		for (int i = 0; i < wonArray.length; i++) {
 			won[i] = money / wonArray[i];
-            money = money % wonArray[i];
-            System.out.println(wonArray[i] + "원:" + won[i] + "개");
+            		money = money % wonArray[i];
+            		System.out.println(wonArray[i] + "원:" + won[i] + "개");
         }
-			sc.close();
+		sc.close();
 	}
 }
