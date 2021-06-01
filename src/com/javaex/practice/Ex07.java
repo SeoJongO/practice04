@@ -16,7 +16,7 @@ public class Ex07 {
 		wonArray[7] = 10;
 		wonArray[8] = 5;
 		wonArray[9] = 1;
-		int won[] = new int[10];
+		int[] won = new int[10];
 		System.out.print("금액: ");
 		int money = sc.nextInt();
 		
